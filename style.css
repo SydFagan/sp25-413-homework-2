@@ -1,0 +1,148 @@
+/*
+Theme : Editorial News 
+Author: Sydney Fagan
+Version: 1.0
+Description: Editorial news theme inspired byyyyyyyy https://theintercept.com/ !! 
+*/
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+background:#ffffff;
+color:#111;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+a{
+color:#000;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+
+.site-header{
+border-bottom:3px solid black;
+padding:20px 0;
+}
+
+.site-title{
+font-size:36px;
+font-weight:900;
+}
+
+.main-nav ul{
+display:flex;
+gap:25px;
+list-style:none;
+padding:0;
+}
+
+.hero{
+margin:40px 0;
+}
+
+.hero h2{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero img{
+width:100%;
+margin-bottom:15px;
+}
+
+.content-layout{
+display:grid;
+grid-template-columns:2fr 1fr;
+gap:40px;
+}
+
+.magazine-grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:30px;
+}
+
+.post-card{
+border-bottom:1px solid #eee;
+padding-bottom:20px;
+}
+
+.post-card img{
+width:100%;
+}
+
+.post-card h3{
+font-size:22px;
+margin:10px 0;
+}
+
+.post-meta{
+font-size:12px;
+color:#777;
+margin-bottom:10px;
+}
+
+.category-label{
+display:inline-block;
+font-size:11px;
+font-weight:700;
+padding:4px 8px;
+color:white;
+margin-bottom:6px;
+}
+
+.cat-politics
+{background:#d62828;}
+.cat-technology
+{background:#3a86ff;}
+.cat-investigations
+{background:#111;}
+.cat-world
+{background:#6a4c93;}
+.cat-culture
+{background:#f77f00;}
+
+.sidebar-card{
+border:1px solid #eee;
+padding:20px;
+margin-bottom:25px;
+}
+
+.sidebar-card h3{
+margin-top:0;
+}
+
+.trending li{
+margin-bottom:12px;
+font-weight:600;
+}
+
+.article{
+max-width:800px;
+margin:auto;
+}
+
+.article h1{
+font-size:44px;
+}
+
+.article-meta{
+color:#777;
+margin-bottom:20px;
+}
+
+.site-footer{
+border-top:3px solid black;
+margin-top:60px;
+padding:30px 0;
+}
+
